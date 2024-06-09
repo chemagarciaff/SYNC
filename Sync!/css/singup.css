@@ -1,0 +1,210 @@
+
+.main{
+    position: relative;
+    top: 140px;
+    height: 1000px;
+    /* border: 1px solid teal; */
+    color: #d8dbde;
+    font-family: noka, quicksand;
+    margin-bottom: 290px;
+}
+
+.main>.container>.head{
+    position: sticky;
+    top: 140px;
+    z-index: 0;
+}
+
+.main>.container>div>h1{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 80px;
+    font-family: pentagra;
+}
+
+.main>.container>div>hr{
+    border-color: #ff4508;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.main>.container>div>h2{
+    /* border: 1px solid teal; */
+    font-size: 24px;
+    width: 20%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main>.container>.form{
+    position: relative;
+    z-index: 10;
+    border: 1px solid #ff4508;
+    box-shadow: 0 0 15px #ff4508;
+    border-radius: 15px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    /* margin-bottom: 90px; */
+    font-size: 25px;
+}
+
+.form>div{
+    margin: 0 auto;
+    margin: 15px;
+    /* border: 1px solid teal; */
+}
+
+.form>.register_rrss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form .google{
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #d8dbde;
+    border-radius: 8px;
+    font-size: 20px;
+    display: inline-block;
+    width: 45%;
+}
+
+.form .google:hover{
+    color: #e42e21;
+    border: 1px solid #e42e21;
+}
+.form .google img{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 25px;
+    margin-right: 5px;
+    /* border: 1px solid teal; */
+}
+.form .google p{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form .facebook{
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #d8dbde;
+    border-radius: 8px;
+    font-size: 20px;
+    display: inline-block;
+    width: 45%;
+}
+
+.form .facebook:hover{
+    color: #2362AA;
+    border: 1px solid #2362AA;
+}
+
+.form .facebook img{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 25px;
+    margin-right: 5px;
+}
+.form .facebook p{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form div a{
+    text-decoration: none;
+    color: #d8dbde;
+}
+.form div a:visited{
+    text-decoration: none;
+    color: #d8dbde;
+}
+.form div a:hover{
+    text-decoration: none;
+    color: #d8dbde;
+}
+
+
+
+
+.form>div>label{
+    display: inline-block;
+    width: 34%;
+    padding: 8px;
+    border: 1px solid #d8dbde;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-left: 35px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.form>div>input{
+    vertical-align: top;
+    width: 50%;
+    /* border: none; */
+    height: 38px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: noka, quicksand;
+}
+.form>div>input::placeholder{
+    font-size: 17px;
+    font-family: noka, quicksand;
+    font-style: oblique;
+}
+.form>div>input:focus{
+    border-color: #ff4508;
+    box-shadow: 0 0 5px #ff4508;
+    outline: 0 none;
+    color: #ff4508;
+}
+
+
+
+.form>.input_btn{
+    width: 90%;
+    margin: 35px auto;
+    /* border: 1px solid #d8dbde; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+
+.bttn{
+    width: 40%;
+    font-family: noka, quicksand;
+    font-size: 20px;
+    /* border: 1px solid #d8dbde; */
+    border-radius: 20px;
+    height: 38px;
+    border: none;
+}
+
+.submit_bttn{
+    background-color: #ff4508;
+    color: #d8dbde;
+}
+.submit_bttn:hover{
+    background-color: #d8dbde;
+    color: #ff4508;
+}
+
+.reset_bttn{
+    background-color: #d8dbde;
+    color: #ff4508;
+    border: 1px solid #ff4508;
+}
+
+.footer{
+    position: relative;
+    top: 120px;
+}

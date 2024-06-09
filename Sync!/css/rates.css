@@ -1,0 +1,121 @@
+.main{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 140px;
+    color: #d8dbde;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    width: 50%;
+    font-family: pentagra;
+    font-size: 80px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-family: noka, quicksand;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+
+.rates{
+    /* margin-top: 100px; */
+    width: 100%;
+    /* border: 1px solid teal; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rates>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    /* border: 1px solid teal; */
+    font-family: noka, quicksand;
+    font-size: 23px;
+    padding: 25px;
+}
+
+.rates>div>a{
+    text-decoration: none;
+    color: #d8dbde;
+    /* display: block; */
+    /* border: 1px solid #d8dbde; */
+    border-radius: 25px;
+    font-size: 35px;
+    font-family: vault;
+    font-weight: 800;
+    color: #d8dbde;
+    padding: 15px;
+    background-color: #ff4508;
+}
+.rates>div>a:visited{
+    text-decoration: none;
+    color: #d8dbde;
+}
+.rates>div>a:hover{
+    text-decoration: none;
+    background-color: #d8dbde;
+    border: #ff4508;
+    color: #ff4508;
+}
+
+.rates>div>img{
+    width: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.table{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-family: noka, quicksand;
+    font-size: 24px;
+    height: 800px;
+    border-collapse: collapse;
+    border: 1px solid #d8dbde;
+    border-radius: 5px 5px 0 0;
+    /* background-color: rgba(0, 0, 0, 0.781); */
+    /* box-shadow: 0 0 15px #d8dbde87; */
+}
+
+.row:hover{
+    background-color: #d8dbde6e;
+}
+
+.row{
+    height: 100px;
+}
+
+.row_1{
+    position: sticky;
+    top: 90px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.table td{
+    border: 1px solid #d8dbde;
+    width: 24%;
+}
+
+.column_1{
+    background-color: rgba(0, 0, 0, 0.781);
+}
+.column_2{
+    background-color: #ff6531;
+}
+.column_3{
+    background-color: #ff5218;
+}
+.column_4{
+    background-color: #ff4508;
+}
